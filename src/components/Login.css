@@ -1,0 +1,218 @@
+.Hwelcome {
+    color: gray;
+    font-family: ;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subHeader {
+    color: darkslategray;
+    font-family: ;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.subHeader2 {
+    color: firebrick;
+    font-family: ;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    /* Location on page */
+    bottom: 0;
+    background-color: white;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    width: 40%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkslategray;
+    border-radius: 3px;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: hand; cursor: pointer;
+}
+
+.modal-header {
+    background-color: dimgray;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkslategray;
+    padding: 10px 16px;
+}
+
+.modal-body {
+	padding: 20px 16px;
+}
+
+.modal-footer {
+    margin-left: 80%;
+    background-color: whitesmoke;
+}
+
+.submitBtn {
+	cursor: hand; cursor: pointer;
+    background-color: white;
+    color: rgb(203,0,0);
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: rgb(203,0,0);
+    height: 35px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.submitBtn:hover,
+.submitBtn:focus {
+    text-decoration: none;
+    background-color: rgb(203,0,0);
+    color: white;
+    border-color: darkgray;
+}
+
+ 
+.startbtn {
+    text-shadow: 1px 1px #000000;
+    font-size: 25px;
+    cursor: hand; cursor: pointer;
+    background-color: rgb(203,0,0);
+    color: white;
+    border-color: darkgray;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: rgb(203,0,0);
+    height: 60px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.startbtn:hover,
+.startbtn:focus {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(203,0,0);
+    border-color: darkgray;
+}
+
+.profile-section {
+    width: 50%;
+    margin-left: 45%;
+    margin-right: 5%;
+}
+
+.profileQ {
+    color: darkslategray;
+    font-family: ;
+    font-size: 18px;
+}
+
+.profileQ:hover, .profileQ.active {
+    cursor: hand; cursor: pointer;
+    background-color: red;
+    color: white;
+    border-color: darkgray;  
+}
+
+.profileQ2 {
+    color: black;
+    font-family: ;
+    font-size: 20px;
+    border-color: darkslategray;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 40%;
+    height: 140px;
+}
+
+.profileQ2:hover {
+    cursor: hand; cursor: pointer;
+    background-color: gray;
+    color: white;
+    border-color: red;  
+}
+
+#signInBtn {
+    margin-left: 90%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#submitUser {
+	margin-left: 70%;
+}
+
+#login {
+    cursor: hand; cursor: pointer;
+    margin-left: 25%;
+}
+
+.search-body {
+    margin-left: 70%;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
